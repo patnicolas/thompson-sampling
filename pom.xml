@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"><![CDATA[
+
+    ]]><groupId>org.examples</groupId>
+    <artifactId>Examples</artifactId>
+    <version>0.1</version>
+    <packaging>jar</packaging>
+    <modelVersion>4.0.0</modelVersion>
+    <properties>
+        <java.version>11</java.version>
+        <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
+        <maven.compiler.release>11</maven.compiler.release>
+        <mockito.version>1.10.19</mockito.version>
+        <scalatest.version>3.2.16</scalatest.version>
+        <scala.version>2.11.18</scala.version>
+        <slf4j.version>2.0.0</slf4j.version>
+        <jfreechart.version>1.0.17</jfreechart.version>
+    </properties>
+
+    <name>Examples Kafka and Spark streaming</name>
+    <description>Various class to evaluate Kafka and Spark streaming</description>
+
+    <developers>
+        <developer>
+            <name>Patrick R. Nicolas</name>
+            <email>pnicolas57@yahoo.com</email>
+            <organization>Self</organization>
+            <organizationUrl>http://patricknicolas.blogspot.com</organizationUrl>
+        </developer>
+    </developers>
+
+
+    <dependencies>
+        <dependency>
+            <groupId>org.scala-lang</groupId>
+            <artifactId>scala-library</artifactId>
+            <version>${scalaVersion}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-slf4j-impl</artifactId>
+            <version>2.17.2</version>
+        </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-simple</artifactId>
+            <version>1.7.30</version>
+        </dependency>
+        <dependency>
+            <groupId>org.jfree</groupId>
+            <artifactId>jfreechart</artifactId>
+            <version>jfreechart.version</version>
+        </dependency>
+    </dependencies>
+</project>
